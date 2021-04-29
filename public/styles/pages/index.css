@@ -1,0 +1,94 @@
+/*CRIANDO MINHAS PALETAS DE CORES ...*/
+
+:root{
+    --wihte: #FFFFFF;
+    --blue-1:#0000FF;
+    --blue-2:#0000EE;
+    --blue-3:#0000CD;
+    --blue-4:#00008B;
+    --blak-500:#000000;
+    --grey-11: #1C1C1C;
+    --grey-21: #363636;
+    --grey-31: #4F4F4F;
+    --grey-41: #696969;
+    --grey-51: #828282;
+    --grey-61: #9C9C9C;
+    --grey-71: #B5B5B5;
+    --grey-81: #E8E8E8;
+    --grey-101:#A9A9A9;
+}
+
+/*TRAZENDO FONTS FAMILY DO GOOGLE PARA USAR EM MEU PROJETO ...*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/*FORMATAÇÃO DO NOSSO CSS PADRAO * ...*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+ h1, h2, h3, h4, h5, h6, button{
+     font-family: "Nunito", sans-serif;
+ }
+
+
+/*FORMATAÇÃO DO NOSSO Header ...*/
+header {
+   display: flex;
+   width: 100%;
+   height: 4rem;
+   justify-content: space-between;
+   align-items: center;
+   background: var(--grey-81);
+   
+}
+
+
+/*FORMATAÇÃO DA DIV DO  NOSSO TITLE ...*/
+.title a{
+    margin-left: 200px;
+    font-family: 'Nunito', sans-serif;
+    color: var(--grey-41);
+    font-size: 1.5rem;
+}
+
+.title a:hover{
+    color: var(--grey-21);
+    opacity: 0.5;
+}
+
+
+/*FORMATAÇÃO DA TAG NAV E UL ...*/
+nav ul{
+    display: flex;
+    width: 100%;
+}
+/*FORMATAÇÃO DA TAG NAV,UL E LI ...*/
+nav ul li{
+    margin: 0 20px;
+}
+
+/*FORMATAÇÃO DA TAG NAV,UL,LI E A ...*/
+nav ul li a{
+    color: var(--grey-41);
+    font-family:'Nunito', sans-serif;
+    font-size: 1rem;
+    
+}
+/*FORMATAÇÃO DA NOSSA TAG LINK ...*/
+nav ul li a:hover{
+    color: var(--grey-21);
+    opacity: 0.5;
+}
+
+
+
+/*FORMATAÇÃO CONTAINER TITLE... ...*/
+.containerTitle{
+    margin-top: 1rem;
+    font-size: 16px;
+}
